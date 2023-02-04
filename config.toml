@@ -1,0 +1,11 @@
+baseURL = 'http://www.narrativeszn.com'
+languageCode = 'en-us'
+title = 'NarrativeSZN - The Premier NBA Narrative Source'
+theme = 'narrativesznTheme'
+enableGitInfo = false
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']

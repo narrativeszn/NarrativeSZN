@@ -1,0 +1,1 @@
+{{ if isset .Params "featured_post" }} {{ with .Site.GetPage .Params.featured_post }}{{ .Content }}{{ end }} {{ end }}

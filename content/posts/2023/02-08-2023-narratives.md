@@ -9,7 +9,6 @@ tags:
 ### Birthdays
 - Rui Hachimura (LAL)
 - Klay Thompson (GSW)
-- Grant Riller (CHA)
 
 ### Debut
 - Kyrie is expected to debut for the Dallas Mavericks tonight.

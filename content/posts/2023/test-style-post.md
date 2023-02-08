@@ -2,6 +2,7 @@
 title: "Test Style Post"
 date: 2023-02-02T21:13:12-06:00
 draft: false
+featured: true
 ---
 
 Birthdays

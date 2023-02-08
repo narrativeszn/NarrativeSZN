@@ -6,7 +6,8 @@
     {{ end }}
   </div>
   <div class="content">
-    {{ if isset .Params "featured_post" }} {{ with .Site.GetPage .Params.featured_post }}{{ .Content }}{{ end }} {{ end }}
+    <h1>{{ .Date.Format "Mon Jan 2, 2006" }}</h1>
+    {{ with (index (where site.RegularPages "Type" "posts").ByDate.Reverse 0) }}{{ .Content }}{{ end }}
   </div>
   <div class="next">
     {{ with .NextInSection }}

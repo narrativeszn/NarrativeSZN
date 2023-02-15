@@ -2,7 +2,7 @@
 title: "02 08 2023 Narratives"
 date: 2023-02-08T15:54:02-06:00
 draft: false
-featured: true
+featured: false
 tags: 
 ---
 
